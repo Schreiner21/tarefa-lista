@@ -1,0 +1,83 @@
+body {
+  margin: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:Arial, Helvetica, sans-serif, center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#caixa {
+  padding: 30px;
+}
+
+#dados {
+  align-items: center;
+  padding: 0px;
+  margin-left: 380px;
+  margin-right: 400px;
+  
+}
+
+#b_salvar {
+  padding: 7px;
+  border-color: rgb(43, 226, 195);
+  background-color: rgb(43, 226, 195);
+  border-radius: 8px;
+
+}
+
+#b_salvar:hover {
+  background-color: azure;
+  color: black;
+}
+
+#b_editar {
+  padding: 7px;
+  border-color: rgb(43, 226, 195);
+  background-color: rgb(43, 226, 195);
+  border-radius: 8px;
+}
+
+#b_editar:hover {
+  background-color: azure;
+  color: black;
+}
+
+#b_excluir {
+  padding: 7px;
+  border-color: rgb(192, 31, 31);
+  background-color: rgb(192, 31, 31);
+  border-radius: 8px;
+}
+
+#b_excluir:hover {
+  background-color: rgb(255, 190, 190);
+  color: black;
+}
+
+footer{
+  border-top: 2px solid rgb(192, 31, 31);
+  color: rgb(192, 31, 31);
+  size: 200px;
+  align-items: center;
+  text-align: center;
+  background: rgb(43, 226, 195);
+  width: 100%;
+  height: 25px;
+  position:fixed;
+  padding: 0px;
+  bottom: 0;
+  left: 0;
+}
+
+div.body-content{
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
